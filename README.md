@@ -8,7 +8,7 @@ This is a repository for assignments of Learn-OpenGL
   * glad
   * GLFW
 
-### 1 Draw a Trianale
+### 1 Draw a Triangle
 
 
 ### 2 Shaders
