@@ -5,8 +5,10 @@ This is a repository for assignments of Computer Graphics Programming in OpenGL 
 * Platform: Visual Studio 2022
 * Language Standard: C++ 17
 * Libaries:
-  * GLEW
-  * GLFW
+  * GLEW → Extension
+  * GLFW → Framework
+  * GLM → Mathematics 
+  * SOIL2
 
 ## Notes
 ### 1 Rendering Pipeline
