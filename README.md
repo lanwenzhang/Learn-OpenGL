@@ -42,7 +42,7 @@ NDC: Normalized Device Coordinate
 #### 3.2 VBO
 VBO: Vertex Buffer Object → A memory buffer in GPU
 
-Create VBO names
+Create VBO
 ```
 glGenBuffers(GLsizei n, Gluint *buffers);
 ```
@@ -50,9 +50,37 @@ Delete VBO
 ```
 glDeleteBuffers(GLsizei n, Gluint *buffers)
 ```
+Bind VBO → Bind VBO to the current OpenGL state machine slot
+```
+glBindBuffer(GLenum target, GLuint buffer)
+```
+Update VBO data → Update data to current VBO and create memory in the display card
+```
+glBufferData(	GLenum target, GLsizeiptr size, const void * data, GLenum usage)
+```
 
 #### 3.3 VAO
 VAO: Vertex Array Object
+
+Create VAO
+```
+glGenVertexArrays(GLsizei n, GLuint *arrays)
+```
+
+Bind VAO
+```
+glBindVertexArray(GLuint array)
+```
+
+Delete VAO
+```
+glDeleteVertexArrays(GLsizei n, const GLuint *arrays)
+```
+
+Update VBO information in VAO
+```
+glVertexAttribPointer(GLuint index, GLint size, GLenum type, GLboolean normalized, GLsizei stride, const void * pointer)
+```
 
 ### 4 Shader
 VertexShader
