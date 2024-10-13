@@ -36,11 +36,23 @@ void glfwSwapBuffers(GLFWwindow* window)
 ```
 
 ### 3 VAO and VBO 
+#### 3.1 NDC
 NDC: Normalized Device Coordinate
 
-VAO: Vertex Array Object
+#### 3.2 VBO
+VBO: Vertex Buffer Object → A memory buffer in GPU
 
-VBO: Vertex Buffer Object 
+Create VBO names
+```
+glGenBuffers(GLsizei n, Gluint *buffers);
+```
+Delete VBO
+```
+glDeleteBuffers(GLsizei n, Gluint *buffers)
+```
+
+#### 3.3 VAO
+VAO: Vertex Array Object
 
 ### 4 Shader
 VertexShader
