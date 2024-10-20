@@ -1,5 +1,5 @@
 # Learn-OpenGL
-This is a repository for assignments of Computer Graphics Programming in OpenGL with C++
+These are learning notes and code repository for the book "Computer Graphics Programming in OpenGL with C++"
 
 ## Environment
 * Platform: Visual Studio 2022
