@@ -11,10 +11,12 @@ These are learning notes and code repository for the book "Computer Graphics Pro
   * SOIL2
 
 ## Notes
-### 1 Rendering Pipeline
-Vertex Shader → Tessellation → Geometry Shader → Verterx Post-processing → Primitive Assembly → Rasterization → Fragment Shader
+### 0 OpenGL Type
 
-![RenderingPipeline](https://github.com/user-attachments/assets/26f4099c-cb71-4dff-963a-06005b672044)
+| C Type  | Bitdepth	 | Description | Common Enum |
+| ------------- | ------------- | ------------- | ------------- |
+| GLint  | 	32 | Signed, 2's complement binary integer  | 	GL_INT  | 
+| GLuint  | 32  | Unsigned binary integer  | GL_UNSIGNED_INT  |
 
 ### 2 OpenGL Basic Functions
 
