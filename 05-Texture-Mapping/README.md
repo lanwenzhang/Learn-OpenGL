@@ -2,7 +2,7 @@
 
 ## 5.1 Load Texture File
 
-### SOIL2
+### 5.1.1 SOIL2 library
 ```
 GLuint loadTexture(const char *texImagePath){
   GLuint textureID;
@@ -13,9 +13,12 @@ GLuint loadTexture(const char *texImagePath){
 }
 ```
 
-### stb_image.h
+### 5.1.2 stb_image.h
 
-
+Flip y-coordinate since OpenGL load the image from the lower left corner
+```
+stbi_set_flip_vertically_on_load(true);
+```
 ## 5.2 Texture Coordinates
 
 
