@@ -22,3 +22,7 @@ Avoid
 • instantiating objects
 
 • declaring variables
+
+### 4.9.2 Pre-Computing the Perspective Matrix
+
+### 4.9.3 Back-Face Culling
