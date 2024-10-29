@@ -62,6 +62,7 @@ GL_LINEAR_MIPMAP_LINEAR
 ```
 
 ## 5.5 Anisotropic Filtering
+Mipmapped textures can sometimes appear more blurry than nonmipmapped textures, especially when the textured object is rendered at aheavily tilted viewing angle
 
 ## 5.6 Wrapping and tiling
 
