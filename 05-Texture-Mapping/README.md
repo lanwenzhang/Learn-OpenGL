@@ -34,6 +34,33 @@ glBindTexture(GL_TEXTURE_2D, texture);          // 4 Bind it to a particular tex
 ```
 ## 5.4 Mipmapping
 
+### 5.4.1 Why use mipmap
+
+### 5.4.2 How to generate mipmap
+#### Step 1 Filtering → generate a blurry image with the same size
+Mean filter
+
+Gaussian filter
+
+#### Step 2 Sampling → generate a smaller image by sampling the blurry image
+Downsample
+
+### 5.4.3 Use mipmap in OpenGL
+```
+GL_NEAREST_MIPMAP_NEAREST
+```
+
+```
+GL_LINEAR_MIPMAP_NEAREST
+```
+
+```
+GL_NEAREST_MIPMAP_LINEAR
+```
+```
+GL_LINEAR_MIPMAP_LINEAR
+```
+
 ## 5.5 Anisotropic Filtering
 
 ## 5.6 Wrapping and tiling
