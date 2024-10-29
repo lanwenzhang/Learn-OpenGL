@@ -48,16 +48,8 @@ Downsample
 ### 5.4.3 Use mipmap in OpenGL
 ```
 GL_NEAREST_MIPMAP_NEAREST
-```
-
-```
 GL_LINEAR_MIPMAP_NEAREST
-```
-
-```
 GL_NEAREST_MIPMAP_LINEAR
-```
-```
 GL_LINEAR_MIPMAP_LINEAR
 ```
 
@@ -65,5 +57,19 @@ GL_LINEAR_MIPMAP_LINEAR
 Mipmapped textures can sometimes appear more blurry than nonmipmapped textures, especially when the textured object is rendered at aheavily tilted viewing angle
 
 ## 5.6 Wrapping and tiling
-
+```
+GL_REPEAT
+GL_MIRRORED_REPEAT
+GL_CLAMP_TO_EDGE
+GL_CLAMP_TO_BORDER
+```
 ## 5.7 Perspective Distortion
+vertex shader
+```
+noperspective out vec2 tc
+```
+fragment shader
+```
+noperspective in vec2 tc;
+```
+
