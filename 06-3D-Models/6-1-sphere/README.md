@@ -1,6 +1,6 @@
 # 6-1-sphere
 
-## Demo
+## Result
 ![image](https://github.com/user-attachments/assets/e90408bf-b13e-4208-b097-ebf6124faf8c)
 
 ## 1 Geometry
