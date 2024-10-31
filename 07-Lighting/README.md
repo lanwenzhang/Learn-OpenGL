@@ -1,9 +1,14 @@
 # 07 Lighting
 
-## 7.1 Lighting Models
+## 7.1 Lighting Models (Shading Models)
 
-### ADS models
 Ambient reflection + Diffuse reflection + Specular reflection
+
+### 7.1.1 Gouraud Shading
+
+### 7.1.2 Phong reflection model
+
+### 7.1.3 Blinn-Phong Reflection Model
 
 ## 7.2 Lights
 Global ambient light
