@@ -36,15 +36,20 @@ dot(a,b);
 cross(a, b);
 ```
 
+#### Application 1: Calculate triangle area
+
+#### Application 2: Check whether point is inside the triangle
+
 ## 3.2 Linear Algebra
 ### 3.2.1 Matrix Operation
-#### Addition
+![image](https://github.com/user-attachments/assets/9fd2969e-d2d1-4fed-ab16-7086165f62b8)
 
-#### Multiplication
 
 ### 3.2.2 Transpose Matrix
+![image](https://github.com/user-attachments/assets/454f1283-b61f-4a51-bbf5-5211b2370436)
 
 ### 3.2.3 Inverse Matrix
+![image](https://github.com/user-attachments/assets/2f7ff69b-8165-4890-804f-b3d23de43b6e)
 
 ### 3.2.4 Vector and Matrix
 
