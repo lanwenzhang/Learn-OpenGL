@@ -85,10 +85,6 @@ Determinant computes the volume of geometric object
 #### Rotate
 ![image](https://github.com/user-attachments/assets/b77a9f3c-f762-4304-8116-1d7334ce6153)
 
-```
-glm::rotate(glm:mat(1.0), radians, matrix)
-```
-
 #### Reflection
 ![image](https://github.com/user-attachments/assets/c025347a-0753-4eb3-a831-eeccad437419)
 
@@ -113,3 +109,13 @@ Step 2 Normalize the projection plane
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/186d1bb7-37f4-4fdc-a646-f8bdd215b85d)
 
 From NDC to Screen 
+
+## 3.4 GLM
+### Rotate
+rotate is always based on the local coordinate!!!
+```
+glm::rotate(glm:mat(1.0), radians, matrix)
+```
+
+### Translate
+translate is always based on local coordinate and the scale!!!
