@@ -1,4 +1,4 @@
-# 03 Mathmatics Foundation
+![image](https://github.com/user-attachments/assets/e689efd7-e145-4641-8752-ccfd11a3777b)# 03 Mathmatics Foundation
 
 ## 3.1 Vector
 ### 3.1.1 Addition
@@ -73,14 +73,23 @@ Determinant computes the volume of geometric object
 
 ### 3.3.1 Model Transformation
 #### Scale
+![image](https://github.com/user-attachments/assets/bc791496-9ae1-4ff1-8e99-f81fea1f9779)
 
 #### Shear
+![image](https://github.com/user-attachments/assets/b609e445-bff8-43f5-9fe2-8c8f1f3b8a29)
 
 #### Rotate
+![image](https://github.com/user-attachments/assets/b77a9f3c-f762-4304-8116-1d7334ce6153)
 
-#### Transition
+#### Reflection
+![image](https://github.com/user-attachments/assets/c025347a-0753-4eb3-a831-eeccad437419)
 
 #### Homogeneous Coordinates
+![image](https://github.com/user-attachments/assets/9715324e-b7fa-45a0-a647-2622a0e52329)
+
+#### Transition
+![image](https://github.com/user-attachments/assets/6bd6fa73-2040-4fca-b961-0fa1eafb2911)
+
 
 ### 3.3.2 Camera Transformation
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/4a49b8b5-d0e8-477f-afb4-c107f0ad6e8a)
