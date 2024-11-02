@@ -18,6 +18,10 @@ These are learning notes and code repository for the book "Computer Graphics Pro
 | GLint  | 	32 | Signed, 2's complement binary integer  | 	GL_INT  | 
 | GLuint  | 32  | Unsigned binary integer  | GL_UNSIGNED_INT  |
 
+### 1 Header File
+cmath
+
+
 ### 2 OpenGL Basic Functions
 
 Set the viewport size
