@@ -51,7 +51,13 @@ cross(a, b);
 ### 3.2.3 Inverse Matrix
 ![image](https://github.com/user-attachments/assets/2f7ff69b-8165-4890-804f-b3d23de43b6e)
 
-### 3.2.4 Vector and Matrix
+### 3.2.4 Vector and Matrix 
+#### Column view
+![image](https://github.com/user-attachments/assets/d60fd901-cde8-4c9d-a5e8-3102bf1999e5)
+
+
+#### Row view
+![image](https://github.com/user-attachments/assets/8187a3dd-72d0-4f7a-8a82-115a3491f19d)
 
 ### 3.2.5 Derterminant
 #### Calculation
