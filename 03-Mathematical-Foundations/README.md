@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e689efd7-e145-4641-8752-ccfd11a3777b)# 03 Mathmatics Foundation
+# 03 Mathmatics Foundation
 
 ## 3.1 Vector
 ### 3.1.1 Addition
@@ -75,8 +75,12 @@ Determinant computes the volume of geometric object
 #### Scale
 ![image](https://github.com/user-attachments/assets/bc791496-9ae1-4ff1-8e99-f81fea1f9779)
 
+![image](https://github.com/user-attachments/assets/1f727943-4142-436c-8dcb-86a29f0c667f)
+
 #### Shear
 ![image](https://github.com/user-attachments/assets/b609e445-bff8-43f5-9fe2-8c8f1f3b8a29)
+
+![image](https://github.com/user-attachments/assets/cac5173e-e84a-4b3b-8926-48b1a21421b8)
 
 #### Rotate
 ![image](https://github.com/user-attachments/assets/b77a9f3c-f762-4304-8116-1d7334ce6153)
