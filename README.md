@@ -6,7 +6,7 @@ These are learning notes and code repository for the book "Computer Graphics Pro
 * Language Standard: C++ 17
 * Libaries:
   * GLEW → Extension
-  * GLFW → Framework
+  * GLFW → Framework: create and manage windows
   * GLM → Mathematics：vectors and matrix
   * SOIL2 → Load image
 
