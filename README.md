@@ -7,8 +7,8 @@ These are learning notes and code repository for the book "Computer Graphics Pro
 * Libaries:
   * GLEW → Extension
   * GLFW → Framework
-  * GLM → Mathematics 
-  * SOIL2
+  * GLM → Mathematics：vectors and matrix
+  * SOIL2 → Load image
 
 ## Notes
 ### 0 OpenGL Type
