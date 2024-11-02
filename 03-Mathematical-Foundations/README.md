@@ -85,6 +85,10 @@ Determinant computes the volume of geometric object
 #### Rotate
 ![image](https://github.com/user-attachments/assets/b77a9f3c-f762-4304-8116-1d7334ce6153)
 
+```
+glm::rotate(glm:mat(1.0), radians, matrix)
+```
+
 #### Reflection
 ![image](https://github.com/user-attachments/assets/c025347a-0753-4eb3-a831-eeccad437419)
 
