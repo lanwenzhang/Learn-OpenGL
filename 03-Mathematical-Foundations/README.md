@@ -44,7 +44,6 @@ cross(a, b);
 ### 3.2.1 Matrix Operation
 ![image](https://github.com/user-attachments/assets/9fd2969e-d2d1-4fed-ab16-7086165f62b8)
 
-
 ### 3.2.2 Transpose Matrix
 ![image](https://github.com/user-attachments/assets/454f1283-b61f-4a51-bbf5-5211b2370436)
 
@@ -71,7 +70,7 @@ Determinant computes the volume of geometric object
 
 ## 3.3 Transformation
 
-### 3.3.1 Model Transformation
+### 3.3.1 View Transformation - Model
 #### Scale
 ![image](https://github.com/user-attachments/assets/bc791496-9ae1-4ff1-8e99-f81fea1f9779)
 
@@ -85,6 +84,12 @@ Determinant computes the volume of geometric object
 #### Rotate
 ![image](https://github.com/user-attachments/assets/b77a9f3c-f762-4304-8116-1d7334ce6153)
 
+
+### 任意轴
+![image](https://github.com/user-attachments/assets/a4f7a96b-a3b3-4b94-aee0-2c74e75cd695)
+
+可以看作把原坐标系旋转得到一个新的坐标系R，P在新的坐标系R的坐标为（x, y, z）
+
 #### Reflection
 ![image](https://github.com/user-attachments/assets/c025347a-0753-4eb3-a831-eeccad437419)
 
@@ -95,8 +100,26 @@ Determinant computes the volume of geometric object
 ![image](https://github.com/user-attachments/assets/6bd6fa73-2040-4fca-b961-0fa1eafb2911)
 
 
-### 3.3.2 Camera Transformation
+### 3.3.2 View Transformation - Camera
+#### Camera parameter:
+initial position: (0, 0, 0)
+
+local coodinates: direction: -z
+
+aspect ratio: 
+
+
+#### View matrix
+transform matrix M: initial position to random position, first rotate then translate
+
+inverse transform matrix M<sup>-1</sup> (view matrix): random position to initial position, first translate then rotate
+
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/4a49b8b5-d0e8-477f-afb4-c107f0ad6e8a)
+
+##### Conclusion: 
+View matrix is used to put the model and camera together to the initial position
+
+View matrix is used to transform model from global coordinates to the camera local coordinates
 
 ### 3.3.3 Viewport Transformation
 Step 1 Move the projection box to the origin
@@ -105,7 +128,7 @@ Step 2 Normalize the projection plane
 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/8276253a-9b7a-4b27-a0f7-a83cb46f6e4b)
 
-### 3.3.4 Projection Transformation
+### 3.3.4 Projective Transformation
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/186d1bb7-37f4-4fdc-a646-f8bdd215b85d)
 
 From NDC to Screen 
