@@ -110,29 +110,32 @@ aspect ratio:
 
 
 #### View matrix
-transform matrix M: initial position to random position, first rotate then translate
+transform matrix M: origin to random position, first rotate then translate
 
 inverse transform matrix M<sup>-1</sup> (view matrix): random position to initial position, first translate then rotate
 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/4a49b8b5-d0e8-477f-afb4-c107f0ad6e8a)
 
 ##### Conclusion: 
-View matrix is used to put the model and camera together to the initial position
+View matrix is used to put the model and camera together to origin
 
 View matrix is used to transform model from global coordinates to the camera local coordinates
 
 
 ### 3.3.3 Viewport Transformation - Projection Matrix
-Step 1 Move the projection box to the origin
+#### Orthographic Projection - Orthographic Matrix
+![image](https://github.com/user-attachments/assets/a0e42a18-e250-4049-af0a-f68cc2d180d0)
 
-Step 2 Normalize the projection plane
+Move the box to the origin and normalize it
+![image](https://github.com/user-attachments/assets/7b981d8c-d294-4785-a65d-49fa0d09e39c)
+
+#### Perspective Projection
 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/8276253a-9b7a-4b27-a0f7-a83cb46f6e4b)
 
-### 3.3.4 Projective Transformation 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/186d1bb7-37f4-4fdc-a646-f8bdd215b85d)
 
-From NDC to Screen 
+#### From NDC to Screen 
 
 ## 3.4 GLM
 ### Rotate
