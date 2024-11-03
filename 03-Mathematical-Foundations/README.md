@@ -121,6 +121,7 @@ View matrix is used to put the model and camera together to the initial position
 
 View matrix is used to transform model from global coordinates to the camera local coordinates
 
+
 ### 3.3.3 Viewport Transformation - Projection Matrix
 Step 1 Move the projection box to the origin
 
