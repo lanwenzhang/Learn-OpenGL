@@ -122,14 +122,14 @@ View matrix is used to put the model and camera together to origin
 View matrix is used to transform model from global coordinates to the camera local coordinates
 
 
-### 3.3.3 Viewport Transformation - Projection Matrix
-#### Orthographic Projection - Orthographic Projection Matrix
+### 3.3.3 Projection Transformation - Projection Matrix
+#### Orthographic Projection - Orthographic Projection Matrix: use in the CAD software
 ![image](https://github.com/user-attachments/assets/a0e42a18-e250-4049-af0a-f68cc2d180d0)
 
 Move the box to the origin and normalize it
 ![image](https://github.com/user-attachments/assets/7b981d8c-d294-4785-a65d-49fa0d09e39c)
 
-#### Perspective Projection - Perspective Projection Matrix
+#### Perspective Projection - Perspective Projection Matrix: use in the game 
 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/8276253a-9b7a-4b27-a0f7-a83cb46f6e4b)
 
