@@ -106,8 +106,9 @@ initial position: (0, 0, 0)
 
 local coodinates: direction: -z
 
-aspect ratio: 
+aspect ratio: W/H
 
+field of view: 
 
 #### View matrix
 transform matrix M: origin to random position, first rotate then translate
@@ -124,18 +125,20 @@ View matrix is used to transform model from global coordinates to the camera loc
 
 ### 3.3.3 Projection Transformation - Projection Matrix
 #### Orthographic Projection - Orthographic Projection Matrix: use in the CAD software
-![image](https://github.com/user-attachments/assets/a0e42a18-e250-4049-af0a-f68cc2d180d0)
-
-Move the box to the origin and normalize it
-![image](https://github.com/user-attachments/assets/7b981d8c-d294-4785-a65d-49fa0d09e39c)
-
-#### Perspective Projection - Perspective Projection Matrix: use in the game 
-
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/8276253a-9b7a-4b27-a0f7-a83cb46f6e4b)
 
+#### Conclusion：
+orthographic projection matrix is used to transform model from the camera local coordinates to the NDC coordinates
+
+#### Perspective Projection - Perspective Projection Matrix: use in the game 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/186d1bb7-37f4-4fdc-a646-f8bdd215b85d)
 
-#### From NDC to Screen 
+![image](https://github.com/user-attachments/assets/6c258ba3-76f1-4bef-91a4-3fbf42c09256)
+
+![image](https://github.com/user-attachments/assets/3b80dc6d-6c4a-4cf1-96b4-8b0ce995524a)
+
+#### Conclusion：
+perspective projection matrix is used to transform model from the camera local coordinates the clippling coordinates
 
 ## 3.4 GLM
 ### Rotate
