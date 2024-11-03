@@ -70,7 +70,7 @@ Determinant computes the volume of geometric object
 
 ## 3.3 Transformation
 
-### 3.3.1 View Transformation - Model
+### 3.3.1 Model Transformation - Model Matrix
 #### Scale
 ![image](https://github.com/user-attachments/assets/bc791496-9ae1-4ff1-8e99-f81fea1f9779)
 
@@ -100,7 +100,7 @@ Determinant computes the volume of geometric object
 ![image](https://github.com/user-attachments/assets/6bd6fa73-2040-4fca-b961-0fa1eafb2911)
 
 
-### 3.3.2 View Transformation - Camera
+### 3.3.2 View Transformation - View Matrix
 #### Camera parameter:
 initial position: (0, 0, 0)
 
@@ -121,14 +121,14 @@ View matrix is used to put the model and camera together to the initial position
 
 View matrix is used to transform model from global coordinates to the camera local coordinates
 
-### 3.3.3 Viewport Transformation
+### 3.3.3 Viewport Transformation - Projection Matrix
 Step 1 Move the projection box to the origin
 
 Step 2 Normalize the projection plane
 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/8276253a-9b7a-4b27-a0f7-a83cb46f6e4b)
 
-### 3.3.4 Projective Transformation
+### 3.3.4 Projective Transformation 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/186d1bb7-37f4-4fdc-a646-f8bdd215b85d)
 
 From NDC to Screen 
