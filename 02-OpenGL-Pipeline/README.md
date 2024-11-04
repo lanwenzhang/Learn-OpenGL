@@ -44,4 +44,7 @@ in vec3 color
 
 
 #### 2.3.2.3 Uniform 
+Used by all the shaders 
+
 Pass variables between CPU and shaders
+
