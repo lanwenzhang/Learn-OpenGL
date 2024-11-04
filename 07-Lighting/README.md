@@ -32,6 +32,9 @@ Ambient reflection + Diffuse reflection + Specular reflection
 
 ### 7.1.1 Gouraud Shading
 
+#### Normals view transformation
+![image](https://github.com/user-attachments/assets/233aaa91-221e-4d9a-8579-a02221cc0609)
+
 ### 7.1.2 Phong reflection model
 
 ### 7.1.3 Blinn-Phong Reflection Model
