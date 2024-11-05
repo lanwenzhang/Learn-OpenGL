@@ -1,9 +1,5 @@
 # 07 Lighting
-## 7.1 Parameters
-![image-2](https://github.com/user-attachments/assets/f97347cb-ed50-4033-bf7e-ac870e6d3d9b)
-
-
-## 7.2 Lights
+## 7.1 Lights
 Global ambient light
 ```
 float globalAmbient[4] = { 0.6f, 0.6f, 0.6f, 1.0f };
@@ -22,19 +18,24 @@ Spot light
 
 ```
 
-## 7.3 Materials
+## 7.2 Materials
 
 
 
-## 7.1 Lighting Models (Shading Models)
-
+## 7.3 Lighting Models (Shading Models)
 Ambient reflection + Diffuse reflection + Specular reflection
 
-### 7.1.1 Gouraud Shading
+### Ambient reflection
+
+### Diffuse reflection
+
+### Specular reflection
+
+### 7.3.1 Gouraud Shading
 
 #### Normals view transformation
 ![image](https://github.com/user-attachments/assets/233aaa91-221e-4d9a-8579-a02221cc0609)
 
-### 7.1.2 Phong reflection model
+### 7.3.2 Phong reflection model
 
-### 7.1.3 Blinn-Phong Reflection Model
+### 7.3.3 Blinn-Phong Reflection Model
