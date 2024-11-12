@@ -27,6 +27,14 @@ Rendeirng pixels < image pixels
 ### 5.2.2 Bilinear Filtering
 Rendeirng pixels > image pixels
 
+## 5.3 Wrapping and tiling
+When UV coordinates>1
+```
+GL_REPEAT
+GL_MIRRORED_REPEAT
+GL_CLAMP_TO_EDGE
+GL_CLAMP_TO_BORDER
+```
 
 ## 5.3 Texture Sampling
 **Uniform Sampler Variable**: a variable designed for instructing a **texture unit on the graphics card** as to which texel to extract or “sample” from a loaded texture object
@@ -61,13 +69,7 @@ GL_LINEAR_MIPMAP_LINEAR
 ## 5.5 Anisotropic Filtering
 Mipmapped textures can sometimes appear more blurry than nonmipmapped textures, especially when the textured object is rendered at aheavily tilted viewing angle
 
-## 5.6 Wrapping and tiling
-```
-GL_REPEAT
-GL_MIRRORED_REPEAT
-GL_CLAMP_TO_EDGE
-GL_CLAMP_TO_BORDER
-```
+
 ## 5.7 Perspective Distortion
 vertex shader
 ```
