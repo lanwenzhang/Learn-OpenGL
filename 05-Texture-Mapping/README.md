@@ -19,8 +19,11 @@ Flip y-coordinate since OpenGL load the image from the lower left corner
 ```
 stbi_set_flip_vertically_on_load(true);
 ```
-## 5.2 Texture Coordinates
+## 5.2 Filtering
 
+### 5.2.1 Nearest Filtering
+
+### 5.2.2 Bilinear Filtering
 
 
 ## 5.3 Texture Sampling
