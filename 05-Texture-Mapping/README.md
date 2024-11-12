@@ -22,8 +22,10 @@ stbi_set_flip_vertically_on_load(true);
 ## 5.2 Filtering
 
 ### 5.2.1 Nearest Filtering
+Rendeirng pixels < image pixels
 
 ### 5.2.2 Bilinear Filtering
+Rendeirng pixels > image pixels
 
 
 ## 5.3 Texture Sampling
