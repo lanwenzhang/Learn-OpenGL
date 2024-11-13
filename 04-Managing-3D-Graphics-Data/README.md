@@ -1,5 +1,7 @@
 # 04 Managing 3D Graphics Data
 
+## Camera
+
 ## 4.8 Matrix Stack
 
 makes available a new entry on the top of the stack
