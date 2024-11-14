@@ -1,6 +1,22 @@
 # 04 Managing 3D Graphics Data
 
-## Camera
+## 4.1 Camera and controller
+
+### 4.1.1 Camera
+#### Othographic Camera
+
+#### Perspective Camera
+
+### 4.1.2 Controller
+
+
+## 4.2 Z-buffer
+
+```
+glEnable(GL_DEPTH_TEST);
+
+glDepthFunc(GL_LESS); // small depth value pass the test
+```
 
 ## 4.8 Matrix Stack
 
