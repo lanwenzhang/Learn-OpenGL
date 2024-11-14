@@ -10,6 +10,10 @@
 ### 4.1.2 Controller
 #### Track Ball Controller
 
+Yaw: global y-axis
+
+Pitch: local x-axis(right vector)
+
 #### Game Camera Controller
 
 
