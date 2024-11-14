@@ -13,3 +13,11 @@ Two ways:
 • vn – vertex normal
 
 • f – face (typically vertices in a triangle)
+
+## 6.2 Geometry
+
+### 6.2.1 Cube
+
+### 6.2.2 Sphere
+
+### 6.2.3 Torus
