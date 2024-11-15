@@ -22,6 +22,10 @@ These are learning notes and code repository for the book "Computer Graphics Pro
 cmath
 
 
+### 2 Debug
+
+#### 2.1 Use fragment shader output
+
 ### 2 OpenGL Basic Functions
 
 Set the viewport size
