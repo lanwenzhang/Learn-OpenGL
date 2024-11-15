@@ -1,4 +1,13 @@
 # 07 Lighting
+
+## 7.1 Colors
+R G B
+
+Light: the intensity
+
+Object: the reflection ratio
+
+
 ## 7.1 Lights
 Global ambient light
 ```
