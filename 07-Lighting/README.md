@@ -8,30 +8,21 @@ Light: the intensity
 Object: the reflection ratio
 
 
-## 7.1 Lights
-Global ambient light
-```
-float globalAmbient[4] = { 0.6f, 0.6f, 0.6f, 1.0f };
-```
+## 7.2 Lights
+### 7.2.1 Global ambient light
 
-Directional light
-```
-float dirLightAmbient[4] = { 0.1f, 0.0f, 0.0f, 1.0f }; 
-float dirLightDiffuse[4] = { 1.0f, 0.0f, 0.0f, 1.0f }; 
-float dirLightSpecular[4] = { 1.0f, 0.0f, 0.0f, 1.0f }; 
-float dirLightDirection[3] = { 0.0f, 0.0f, -1.0f };
-```
 
-Spot light
-```
+### 7.2.2 Directional light
 
-```
+### 7.2.3 Point light
 
-## 7.2 Materials
+### 7.2.4 Spot light
+
+## 7.3 Materials
 
 
 
-## 7.3 Lighting Models (Shading Models)
+## 7.4 Lighting Models (Shading Models)
 Ambient reflection + Diffuse reflection + Specular reflection
 
 ### Ambient reflection
