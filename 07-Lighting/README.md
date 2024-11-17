@@ -18,6 +18,8 @@ Object: the reflection ratio
 
 Attenuation
 
+![image](https://github.com/user-attachments/assets/21add553-e49c-41fb-bb63-b6799b09c3b8)
+
 ### 7.2.4 Spot light
 
 
