@@ -16,7 +16,10 @@ Object: the reflection ratio
 
 ### 7.2.3 Point light
 
+Attenuation
+
 ### 7.2.4 Spot light
+
 
 ## 7.3 Materials
 
