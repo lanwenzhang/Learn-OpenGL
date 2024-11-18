@@ -90,6 +90,10 @@ Determinant computes the volume of geometric object
 
 可以看作把原坐标系旋转得到一个新的坐标系R，P在新的坐标系R的坐标为（x, y, z）
 
+Rodriguez formula:
+![image](https://github.com/user-attachments/assets/0ed37e5c-af15-4f9c-b897-abe5d404321e)
+
+
 #### Reflection
 ![image](https://github.com/user-attachments/assets/c025347a-0753-4eb3-a831-eeccad437419)
 
