@@ -5,10 +5,10 @@ These are learning notes and code repository for the book "Computer Graphics Pro
 * Platform: Visual Studio 2022
 * Language Standard: C++ 17
 * Libaries:
-  * GLEW → Extension
+  * GLAD → Extension
   * GLFW → Framework: create and manage windows
   * GLM → Mathematics：vectors and matrix
-  * SOIL2 → Load image
+  * Assimp → Load image
 
 ## Notes
 ### 0 OpenGL Type
