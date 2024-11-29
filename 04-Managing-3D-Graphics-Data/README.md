@@ -17,7 +17,7 @@ Pitch: local x-axis(right vector)
 #### Game Camera Controller
 
 
-## 4.2 Z-buffer
+## 4.2 Depth Test
 
 ### 4.2.1 Depth Test
 ```
@@ -52,6 +52,9 @@ glEnable(GL_PLOYGON_OFFSET_FILL);  //face
 glPolygonOffset(0.0f, 1.0f);
 
 ```
+
+### 4.3 Stencil Test
+
 
 ## 4.8 Matrix Stack
 
