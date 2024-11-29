@@ -19,10 +19,37 @@ Pitch: local x-axis(right vector)
 
 ## 4.2 Z-buffer
 
+### 4.2.1 Depth Test
 ```
-glEnable(GL_DEPTH_TEST);
-
+glEnable(GL_DEPTH_TEST); // depth test
 glDepthFunc(GL_LESS); // small depth value pass the test
+```
+
+### 4.2.2 Depth Mask
+
+```
+glDepthMask(GL_TRUE); // depth write
+```
+
+### 4.2.3 Linear Depth
+
+```
+float Zndc = gl_FragCoord.z * 2.0 - 1.0;
+
+float linearDepth = 2 * near / (far + near - Zndc*(far - near));
+
+vec3 finalColor = vec3(linearDepth, linearDepth, linearDepth);
+```
+
+### 4.2.4 Polygon Offset
+
+solve z-fighting 
+
+```
+glEnable(GL_PLOYGON_OFFSET_FILL);  //face
+
+glPolygonOffset(0.0f, 1.0f);
+
 ```
 
 ## 4.8 Matrix Stack
