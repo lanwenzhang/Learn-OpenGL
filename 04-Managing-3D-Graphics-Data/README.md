@@ -22,6 +22,7 @@ Pitch: local x-axis(right vector)
 ### 4.2.1 Depth Test
 ```
 glEnable(GL_DEPTH_TEST); // depth test
+
 glDepthFunc(GL_LESS); // small depth value pass the test
 ```
 
