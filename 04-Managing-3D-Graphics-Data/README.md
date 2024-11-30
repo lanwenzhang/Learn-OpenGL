@@ -66,6 +66,9 @@ glStencilOp(GLenum sfail, GLenum dpfail, GLenum dppass);
 
 ```
 
+
+## 4.4 Blending
+
 ## 4.8 Matrix Stack
 
 makes available a new entry on the top of the stack
