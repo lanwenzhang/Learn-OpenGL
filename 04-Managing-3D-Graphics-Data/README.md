@@ -53,7 +53,10 @@ glPolygonOffset(0.0f, 1.0f);
 
 ```
 
-### 4.3 Stencil Test
+## 4.3 Stencil Test
+```
+glStencilOp(GLenum sfail, GLenum dpfail, GLenum dppass);
+```
 
 
 ## 4.8 Matrix Stack
