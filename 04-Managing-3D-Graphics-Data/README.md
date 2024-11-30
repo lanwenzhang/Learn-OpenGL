@@ -19,7 +19,7 @@ Pitch: local x-axis(right vector)
 
 ## 4.2 Depth Test
 
-### 4.2.1 Depth Test
+### 4.2.1 Enable Depth Test
 ```
 glEnable(GL_DEPTH_TEST); // depth test
 
@@ -54,10 +54,17 @@ glPolygonOffset(0.0f, 1.0f);
 ```
 
 ## 4.3 Stencil Test
-```
-glStencilOp(GLenum sfail, GLenum dpfail, GLenum dppass);
-```
 
+```
+glEnable(GL_STENCIL_TEST);
+
+glStencilFunc();
+
+glStencilMask(GLuint mask);
+
+glStencilOp(GLenum sfail, GLenum dpfail, GLenum dppass);
+
+```
 
 ## 4.8 Matrix Stack
 
@@ -76,6 +83,7 @@ top()
 
 ## 4.9 Optimization
 ### 4.9.1 Minimizing Dynamic Memory Allocation
+
 Avoid 
 
 • instantiating objects
