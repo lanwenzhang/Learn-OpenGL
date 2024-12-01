@@ -79,6 +79,9 @@ Pass 1 and Pass 2 in the same frame
 
 offscreen rendering
 
+frame buffer includes color buffer,  depth buffer, stencil buffer, etc
+
+
 ## 4.8 Matrix Stack
 
 makes available a new entry on the top of the stack
