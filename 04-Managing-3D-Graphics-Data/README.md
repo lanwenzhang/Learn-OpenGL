@@ -69,6 +69,10 @@ glStencilOp(GLenum sfail, GLenum dpfail, GLenum dppass);
 
 ## 4.4 Blending
 
+
+## 4.5 Face Culling
+
+
 ## 4.8 Matrix Stack
 
 makes available a new entry on the top of the stack
@@ -83,6 +87,8 @@ returns a reference to the matrix at the top of the stack, without removing it
 ```
 top()
 ```
+
+
 
 ## 4.9 Optimization
 ### 4.9.1 Minimizing Dynamic Memory Allocation
