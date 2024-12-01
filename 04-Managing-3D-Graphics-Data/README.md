@@ -73,6 +73,8 @@ glStencilOp(GLenum sfail, GLenum dpfail, GLenum dppass);
 ## 4.5 Face Culling
 
 
+## 4.6 Framebuffer
+
 ## 4.8 Matrix Stack
 
 makes available a new entry on the top of the stack
