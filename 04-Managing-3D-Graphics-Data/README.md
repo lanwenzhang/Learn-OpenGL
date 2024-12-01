@@ -75,6 +75,10 @@ glStencilOp(GLenum sfail, GLenum dpfail, GLenum dppass);
 
 ## 4.6 Framebuffer
 
+Pass 1 and Pass 2 in the same frame
+
+offscreen rendering
+
 ## 4.8 Matrix Stack
 
 makes available a new entry on the top of the stack
