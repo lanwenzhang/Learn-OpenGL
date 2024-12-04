@@ -82,6 +82,9 @@ offscreen rendering
 frame buffer includes color buffer,  depth buffer, stencil buffer, etc
 
 
+## 4.7 Instancing
+
+
 ## 4.8 Matrix Stack
 
 makes available a new entry on the top of the stack
