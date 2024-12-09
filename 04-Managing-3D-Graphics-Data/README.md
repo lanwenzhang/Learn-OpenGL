@@ -83,6 +83,13 @@ frame buffer includes color buffer,  depth buffer, stencil buffer, etc
 
 
 ## 4.7 Instancing
+### 4.7.1 Use Uniform 
+
+### 4.7.2 Use Attribute
+```
+glVertexAttribDivisor();
+
+```
 
 
 ## 4.8 Matrix Stack
