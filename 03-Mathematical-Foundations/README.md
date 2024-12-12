@@ -71,18 +71,69 @@ Determinant computes the volume of geometric object
 ## 3.3 Transformation
 
 ### 3.3.1 Model Transformation - Model Matrix
-#### Scale
-![image](https://github.com/user-attachments/assets/bc791496-9ae1-4ff1-8e99-f81fea1f9779)
+#### 2D Scale 
 
+$$
+\mathbf{p'} = S(s_x, s_y) \cdot \mathbf{p} = \begin{bmatrix} 
+s_x & 0 \\
+0 & s_y
+\end{bmatrix} \cdot \begin{bmatrix} 
+x \\
+y
+\end{bmatrix} = \begin{bmatrix} 
+s_x \cdot x \\
+s_y \cdot y
+\end{bmatrix}
+$$
+
+#### 3D Scale 
+
+$$
+\mathbf{p'} = S(s_x, s_y, s_z) \cdot \mathbf{p} = \begin{bmatrix} 
+s_x & 0 & 0 \\
+0 & s_y & 0 \\
+0 & 0 & s_z
+\end{bmatrix} \cdot \begin{bmatrix} 
+x \\
+y \\
+z
+\end{bmatrix} = \begin{bmatrix} 
+s_x \cdot x \\
+s_y \cdot y \\
+s_z \cdot z
+\end{bmatrix}
+$$
 ![image](https://github.com/user-attachments/assets/1f727943-4142-436c-8dcb-86a29f0c667f)
 
-#### Shear
-![image](https://github.com/user-attachments/assets/b609e445-bff8-43f5-9fe2-8c8f1f3b8a29)
+#### 2D Shear - x axis
+$$
+\mathbf{p'} = Sh_x(k_x) \cdot \mathbf{p} = \begin{bmatrix} 
+1 & k_x \\
+0 & 1
+\end{bmatrix} \cdot \begin{bmatrix} 
+x \\
+y
+\end{bmatrix} = \begin{bmatrix} 
+x + k_x \cdot y \\
+y
+\end{bmatrix}
+$$
 
-![image](https://github.com/user-attachments/assets/cac5173e-e84a-4b3b-8926-48b1a21421b8)
+#### 2D Shear - y axis
+$$
+\mathbf{p'} = Sh_y(k_y) \cdot \mathbf{p} = \begin{bmatrix} 
+1 & 0 \\
+k_y & 1
+\end{bmatrix} \cdot \begin{bmatrix} 
+x \\
+y
+\end{bmatrix} = \begin{bmatrix} 
+x \\
+y + k_y \cdot x
+\end{bmatrix}
+$$
 
-#### Rotate
-![image](https://github.com/user-attachments/assets/b77a9f3c-f762-4304-8116-1d7334ce6153)
+#### 2D Rotate
 
 $$
 R_x(\theta) = \begin{bmatrix} 
@@ -92,7 +143,13 @@ R_x(\theta) = \begin{bmatrix}
 \end{bmatrix}
 $$
 
-### 任意轴
+#### 3D Rotate - x axis
+
+#### 3D Rotate - y axis
+
+#### 3D Rotate - z axis
+
+#### 3D Rotate - arbitrary axis
 $$
 \mathbf{v'} = \mathbf{v} \cos(\theta) + (\mathbf{k} \times \mathbf{v}) \sin(\theta) + \mathbf{k} (\mathbf{k} \cdot \mathbf{v}) (1 - \cos(\theta))
 $$
@@ -103,7 +160,8 @@ Where:
 - $\mathbf{k}\$ is the unit vector along the axis of rotation.
 - $\theta\$ is the angle of rotation (in radians).
 
-#### Reflection
+
+#### 2D Reflection
 ![image](https://github.com/user-attachments/assets/c025347a-0753-4eb3-a831-eeccad437419)
 
 #### Homogeneous Coordinates
