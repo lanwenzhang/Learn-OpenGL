@@ -84,15 +84,24 @@ Determinant computes the volume of geometric object
 #### Rotate
 ![image](https://github.com/user-attachments/assets/b77a9f3c-f762-4304-8116-1d7334ce6153)
 
+$$
+R_x(\theta) = \begin{bmatrix} 
+1 & 0 & 0 \\
+0 & \cos(\theta) & -\sin(\theta) \\
+0 & \sin(\theta) & \cos(\theta)
+\end{bmatrix}
+$$
 
 ### 任意轴
-![image](https://github.com/user-attachments/assets/a4f7a96b-a3b3-4b94-aee0-2c74e75cd695)
+$$
+\mathbf{v'} = \mathbf{v} \cos(\theta) + (\mathbf{k} \times \mathbf{v}) \sin(\theta) + \mathbf{k} (\mathbf{k} \cdot \mathbf{v}) (1 - \cos(\theta))
+$$
 
-可以看作把原坐标系旋转得到一个新的坐标系R，P在新的坐标系R的坐标为（x, y, z）
-
-Rodriguez formula:
-![image](https://github.com/user-attachments/assets/0ed37e5c-af15-4f9c-b897-abe5d404321e)
-
+Where:
+- $\mathbf{v}\$ is the original vector.
+- $\mathbf{v'}\$ is the rotated vector.
+- $\mathbf{k}\$ is the unit vector along the axis of rotation.
+- $\theta\$ is the angle of rotation (in radians).
 
 #### Reflection
 ![image](https://github.com/user-attachments/assets/c025347a-0753-4eb3-a831-eeccad437419)
