@@ -44,3 +44,20 @@ Ambient reflection + Diffuse reflection + Specular reflection
 ### 7.3.2 Phong reflection model
 
 ### 7.3.3 Blinn-Phong Reflection Model
+
+## 7.5 Gamma
+
+Human eyes are more sensitive to darkness than brightness
+
+### 7.5.1 Image creation - Gamma
+Color space
+
+Linear 
+
+sRGB → more darkness
+
+### 7.5.2 Image saving - Gamma correction
+![gamma_correction_gamma_curves](https://github.com/user-attachments/assets/cbf1a3b0-8eda-47bd-aa58-208ad3af5c72)
+
+### 7.7.3 Monitor - Gamma
+
