@@ -14,3 +14,4 @@
 
 ## 10.2 Height mapping / Parallax mapping
 
+![heightmap](https://github.com/user-attachments/assets/24c7808d-717e-4103-acc6-ceb010066eff)
