@@ -1,6 +1,6 @@
 # 10 Enhancing Surface Details - Bump Mapping
 
-## 10.1 Normal mapping
+## 10.1 Normal Mapping
 
 ### 10.1.1 Why tangetSpace
 
@@ -12,8 +12,8 @@
 
 ![TBN2](https://github.com/user-attachments/assets/ef43fe11-b84e-4e01-baa3-1cf2dcc423d9)
 
-## 10.2 Height mapping / Parallax mapping
-
+## 10.2 Parallax Mapping
+### 10.2.1 Parallax Mapping
 ![heightmap](https://github.com/user-attachments/assets/24c7808d-717e-4103-acc6-ceb010066eff)
 
 ```
@@ -27,3 +27,8 @@ vec2 ParallaxUV(vec2 uv, vec3 viewDir){
 }
 
 ```
+### 10.2.2 Steep Parallax Mapping
+![parallax_mapping](https://github.com/user-attachments/assets/d89dc25b-fb41-4537-aa6f-9798f709ce77)
+
+
+### 10.2.3 Parallax Occlusion Mapping
