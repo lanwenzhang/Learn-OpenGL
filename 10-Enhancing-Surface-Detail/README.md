@@ -21,8 +21,9 @@ vec2 ParallaxUV(vec2 uv, vec3 viewDir){
 
     viewDir = normalize();
     float height = texture(parallaxSampler.uv).r;
-    vec2 offset = viewDir.xy/viewDir.z * height;
+    vec2 offset = viewDir.xy/viewDir.z * height * heightScale;   // divided by z simulates the effect of view angle
     return uv-offset;
+
 }
 
 ```
