@@ -15,3 +15,14 @@
 ## 10.2 Height mapping / Parallax mapping
 
 ![heightmap](https://github.com/user-attachments/assets/24c7808d-717e-4103-acc6-ceb010066eff)
+
+```
+vec2 ParallaxUV(vec2 uv, vec3 viewDir){
+
+    viewDir = normalize();
+    float height = texture(parallaxSampler.uv).r;
+    vec2 offset = viewDir.xy/viewDir.z * height;
+    return uv-offset;
+}
+
+```
