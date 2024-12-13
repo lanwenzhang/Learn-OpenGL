@@ -1,4 +1,4 @@
-# 6 3D Models
+# 6 Load and create 3D Models
 Two ways:
 
 • building models procedurally
