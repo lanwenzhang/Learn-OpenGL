@@ -1,7 +1,6 @@
 # 08 Shadows
 
 ## 8.1 Shadow Mapping
-
 ### 8.1.1 
 #### Pass One
 light sapce: a camera
@@ -18,6 +17,7 @@ Fragment shader → compare depth with the shadow Map
 ### 8.1.2 Shadow acne
 Solution: minus bias factor 
 
+## 8.2 Percentage-Closer Filtering(PCF)
 
-## 8.2 Soft Shadow
-### 8.2.1 Percentage-Closer Filtering
+
+## 8.3 Percentage-Closer Soft Shadow(PCSS)
