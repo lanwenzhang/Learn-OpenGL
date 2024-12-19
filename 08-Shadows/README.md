@@ -22,3 +22,5 @@ Solution: minus bias factor
 ## 8.3 Percentage-Closer Soft Shadow(PCSS)
 
 ## 8.4 Cascaded Shadow Maps(CSM)
+
+## 8.5 Point Light
