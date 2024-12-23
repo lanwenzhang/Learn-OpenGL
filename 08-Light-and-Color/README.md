@@ -13,6 +13,21 @@
 
 #### 8.1.1.1 Radiant Flux
 
+#### 8.1.1.2 Radiant Intensity
+
+$$
+\
+I = \frac{dE}{dA \, d\omega}
+\
+$$
+
+Where:
+
+- \(I\) is the radiant intensity (measured in watts per steradian, W/sr).
+- \(dE\) is the infinitesimal amount of radiant energy (measured in watts, W).
+- \(dA\) is the infinitesimal area element through which the energy is passing (measured in square meters, m²).
+- \(d\omega\) is the infinitesimal solid angle subtended by the radiated energy (measured in steradians, sr)., sr).
+
 
 ### 8.1.2 Photometry
 
