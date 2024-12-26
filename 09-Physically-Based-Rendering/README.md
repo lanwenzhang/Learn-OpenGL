@@ -5,6 +5,8 @@ Radiance = BRDF * Irridance;
 
 
 ### 9.1.1 Diffuse BRDF
+color/PI
+
 
 ### 9.1.2 BRDF
 
