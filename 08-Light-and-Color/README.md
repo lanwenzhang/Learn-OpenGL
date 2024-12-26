@@ -28,6 +28,11 @@ Where:
 - \(dA\) is the infinitesimal area element through which the energy is passing (measured in square meters, m²).
 - \(d\omega\) is the infinitesimal solid angle subtended by the radiated energy (measured in steradians, sr)., sr).
 
+#### 8.1.1.3 Irridance
+
+#### 8.1.1.4 Radiance
+
+
 
 ### 8.1.2 Photometry
 
