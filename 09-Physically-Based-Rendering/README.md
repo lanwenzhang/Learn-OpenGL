@@ -3,4 +3,7 @@
 ## 9.1 BRDF - Bidirectional Reflectance Distribution Function
 Radiance = BRDF * Irridance;
 
-## 9.2 Microgeometry
+## 9.2 Reflectance Equation
+
+
+## 9.3 Microgeometry
