@@ -10,9 +10,9 @@ color/PI
 
 ### 9.1.2 Specular BRDF
 
+Microfacet → assume → Fresnel Plane
 
 
 ## 9.2 Reflectance Equation
 
 
-## 9.3 Microgeometry
