@@ -8,11 +8,11 @@ Radiance = BRDF * Irridance;
 color/PI
 
 
-### 9.1.2 BRDF
+### 9.1.2 Specular BRDF
+
+
 
 ## 9.2 Reflectance Equation
-
-
 
 
 ## 9.3 Microgeometry
