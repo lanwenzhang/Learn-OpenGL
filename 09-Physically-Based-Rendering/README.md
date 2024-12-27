@@ -8,12 +8,13 @@ Radiance = BRDF * Irridance;
 color/PI
 
 
-### 9.1.2 Specular BRDF
+### 9.1.2 Specular BRDF - Cook-Torrance Specular BRDF
+#### D - Normal Distribution Function
 
-#### Some definition
-Each microfacet → assume → Fresnel Plane
+#### G - Masking Function
 
-Normal Distribution Function
+#### F - 
+
 
 ## 9.2 Reflectance Equation
 
