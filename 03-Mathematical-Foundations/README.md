@@ -1,13 +1,7 @@
 # 03 Mathmatics Foundation
 
 ## 3.1 Vector
-### 3.1.1 Addition
-
-
-### 3.1.2 Subtraction
-
-
-### 3.1.3 Dot Product
+### 3.1.1 Dot Product
 ![image](https://github.com/user-attachments/assets/50d8c25d-5a3e-4469-9d71-a598ede1bff2)
 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/13f992a3-ea4c-460b-9f53-5814f75857c2)
@@ -24,7 +18,7 @@ dot(a,b);
 
 -: > 90
 
-### 3.1.4 Cross Product
+### 3.1.2 Cross Product
 2D → get a scalar   3D → get a vector
 
 ![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/69d0e523-71a4-45fa-b36e-6a9075500a90)
