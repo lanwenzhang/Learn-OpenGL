@@ -10,8 +10,10 @@ color/PI
 
 ### 9.1.2 Specular BRDF
 
+#### Some definition
 Each microfacet → assume → Fresnel Plane
 
+Normal Distribution Function
 
 ## 9.2 Reflectance Equation
 
