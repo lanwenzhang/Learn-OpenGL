@@ -1,23 +1,4 @@
 # 03 Mathmatics Foundation
-
-## 3.1 Vector
-### 3.1.1 Dot Product
-![image](https://github.com/user-attachments/assets/50d8c25d-5a3e-4469-9d71-a598ede1bff2)
-
-![image](https://github.com/lanwenzhang/Learn-Computer-Graphics/assets/86000552/13f992a3-ea4c-460b-9f53-5814f75857c2)
-
-```
-dot(a,b);
-```
-#### Application 1: Calculate the projection vector
-
-![image](https://github.com/user-attachments/assets/60cae4cb-3ca2-411b-bded-fc9ca7216df8)
-
-#### Application 2: Check the angle between two vectors
-+: < 90
-
--: > 90
-
 ### 3.1.2 Cross Product
 2D → get a scalar   3D → get a vector
 
